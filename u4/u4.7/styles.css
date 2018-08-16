@@ -1,0 +1,57 @@
+h1{
+    width:300px;
+    margin: 25px 25px 0px 25px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #DEB887;
+}
+.intro{
+    max-width:500px;
+    margin: 5px 30px;
+    text-align: justify;
+    position: relative;
+    display: inline-block;
+}
+
+.important{
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hamster_photos{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 5px 30px;
+}
+.hamster_png:hover{
+    -webkit-transform: rotate(13deg);
+}
+.hamster_png{
+    margin: 6px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid brown;
+    border-radius: 50%;
+    -webkit-transition: .5s;
+}
+
+.table_info{
+    margin: 40px 30px;
+}
+
+
+td,th{
+    border: 1px solid brown; 
+    width: 120px;
+    text-align: center;
+}
+table {
+    border-spacing: 0px;
+}
+
+.info{
+    margin:40px 30px;
+}
